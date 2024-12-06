@@ -6,31 +6,31 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 
 ### Dashboard
 - Your personal Lyceum learning hub
-- Track progress across different learning paths
-- View completed quests and achievements
-- Monitor learning statistics and performance metrics
-- Access quick links to ongoing courses and roadmaps
+- Overview of your learning progress
+- Quick access to all learning resources
+- Personalized learning recommendations
+- Activity tracking and history
 
 ### Learning Platform
-- Interactive coding lessons and tutorials
-- Step-by-step learning paths for different technologies
-- Progress tracking and skill assessment
-- Hands-on coding exercises and examples
-- Rich multimedia content with code snippets and explanations
+- Curated educational videos from top programming channels
+- Integration with freeCodeCamp and Telusko content
+- Video search functionality
+- Organized learning materials by topic
+- Interactive video lessons with detailed descriptions
 
 ### Roadmaps
-- Structured learning paths for different technologies
-- Visual progression tracking
-- Milestone-based learning objectives
-- Prerequisites and skill dependencies mapped
-- Customized learning recommendations
+- AI-powered learning path generation
+- Custom roadmap creation based on your goals
+- Progress tracking for each roadmap
+- Detailed step-by-step guidance
+- Share and explore community roadmaps
 
 ### Quest System
-- Gamified learning challenges
-- Practical coding exercises
-- Real-world project implementations
-- Achievement badges and rewards
-- Skill-based progression system
+- Time-based coding challenges
+- Categorized quests (Upcoming, Active, Past)
+- Real-time quest status tracking
+- Detailed quest descriptions and requirements
+- Quest completion tracking
 
 ### AI Assistant
 - Intelligent learning support
@@ -93,6 +93,7 @@ npm install
 Create a `.env.local` file with necessary credentials:
 - Clerk authentication keys
 - MongoDB connection string
+- YouTube API key
 - Other API keys
 
 4. **Run the development server**
@@ -111,6 +112,7 @@ Required environment variables:
 - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
 - `CLERK_SECRET_KEY`
 - `MONGODB_URI`
+- `NEXT_PUBLIC_YOUTUBE_API_KEY`
 - Other service-specific keys
 
 ## 📝 Scripts
