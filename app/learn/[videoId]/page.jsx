@@ -52,7 +52,6 @@ const VideoPage = ({ params }) => {
       <div className="w-1/2 shadow-lg overflow-hidden bg-white">
         {/* Code Editor Section - to be implemented later */}
         <div className="h-full">
-          Code Editor Section
           <CodeEditor/>
         </div>
       </div>

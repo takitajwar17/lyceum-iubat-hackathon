@@ -50,7 +50,6 @@ const LearnPage = () => {
             maxResults: 10,
             order: "relevance",
             q: searchTerm,
-            type: "video",
             key: API_KEY,
           },
         })
@@ -69,9 +68,14 @@ const LearnPage = () => {
         <div className="max-w-4xl mx-auto flex items-center">
           <input
             type="text"
-            placeholder="Search for coding videos..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                fetchVideosBySearch();
+              }
+            }}
+            placeholder="Search for coding videos..."
             className="flex-grow p-2 border border-gray-300 rounded-l-md focus:outline-none "
           />
           <button onClick={fetchVideosBySearch} className="p-2 bg-blue-500 flex items-center gap-1 text-white rounded-r-md hover:bg-blue-600"><IoSearch />Search</button>
