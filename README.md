@@ -1,5 +1,7 @@
 # Lyceum - Your Interactive Coding and Learning Platform
 
+> 🏆 Created by Team XtraDrill for IUBAT Hackathon
+
 Lyceum is a modern educational platform built with Next.js, designed to provide an immersive and structured learning experience for aspiring developers. Named after Aristotle's ancient school, Lyceum combines traditional learning principles with modern technology to create an engaging educational journey.
 ![image](https://github.com/user-attachments/assets/4fcc5461-b395-492a-a826-9f8a96130d4e)
 
@@ -85,7 +87,7 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 
 1. **Clone the repository**
 ```bash
-git clone [repository-url]
+git clone https://github.com/takitajwar17/lyceum-iubat-hackathon.git
 ```
 
 2. **Install dependencies**
@@ -94,11 +96,36 @@ npm install
 ```
 
 3. **Set up environment variables**
-Create a `.env.local` file with necessary credentials:
-- Clerk authentication keys
-- MongoDB connection string
-- YouTube API key
-- Other API keys
+Create a `.env.local` file with the following variables:
+
+```env
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+WEBHOOK_SECRET=your_webhook_secret
+
+# MongoDB
+MONGODB_URI=your_mongodb_uri
+
+# AI Services
+GROQ_API_KEY=your_groq_api_key
+PLAGIARISM_CHECK_API_KEY=your_plagiarism_check_api_key
+
+# URLs
+NEXT_PUBLIC_SOCKET_SERVER_URL=http://localhost:3000
+NEXT_PUBLIC_FRONTEND_URL=http://localhost:3000
+
+# Clerk Redirect URLs
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+
+# YouTube API
+NEXT_PUBLIC_YOUTUBE_API_KEY=your_youtube_api_key
+```
+
+You can find an example in the `.env.example` file. Make sure to replace all placeholder values with your actual API keys and credentials.
 
 4. **Run the development server**
 ```bash
@@ -110,15 +137,6 @@ npm run dev
 npm run build
 ```
 
-## 🔑 Environment Variables
-
-Required environment variables:
-- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
-- `CLERK_SECRET_KEY`
-- `MONGODB_URI`
-- `NEXT_PUBLIC_YOUTUBE_API_KEY`
-- Other service-specific keys
-
 ## 📝 Scripts
 
 - `npm run dev` - Start development server
@@ -129,3 +147,6 @@ Required environment variables:
 ## 📜 License
 
 This project is licensed under the MIT License.
+
+---
+Created with 💻 by Team XtraDrill for IUBAT Hackathon
