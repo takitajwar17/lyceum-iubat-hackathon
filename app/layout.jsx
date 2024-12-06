@@ -19,11 +19,11 @@ export const metadata = {
   description: "Lyceum: A Unified Learning & Coding Platform",
   openGraph: {
     type: "website",
-    url: "https://Lyceum-xtradrill.vercel.app",
+    url: "https://lyceum-iubat-hackathon.vercel.app",
     title: "Lyceum",
     description: "Lyceum: A Unified Learning & Coding Platform",
     image:
-      "https://raw.githubusercontent.com/takitajwar17/Lyceum/refs/heads/main/public/Lyceum.png",
+      "https://raw.githubusercontent.com/takitajwar17/lyceum-iubat-hackathon/refs/heads/main/public/inherit.png",
   },
 };
 
