@@ -63,6 +63,16 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <TbLayoutDashboardFilled className="mr-2" />
             Dashboard
           </Link>
+
+
+                    
+          <Link
+            href="/roadmaps"
+            className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
+          >
+            <FiMap className="mr-2" />
+            Roadmaps
+          </Link>
           <Link
             href="/learn"
             className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
@@ -71,13 +81,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             Learn
           </Link>
           
-          <Link
-            href="/dev-discuss"
-            className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
-          >
-            <FaComments className="mr-2" />
-            DevDiscuss
-          </Link>
          
           <Link
             href="/quests"
@@ -94,14 +97,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <FaQuestionCircle className="mr-2" />
             AI Assistant
           </Link>
-          
-          <Link
-            href="/roadmaps"
-            className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
-          >
-            <FiMap className="mr-2" />
-            Roadmaps
-          </Link>
+
         
         </nav>
         <div className="absolute right-2 top-2">
