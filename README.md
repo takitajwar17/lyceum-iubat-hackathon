@@ -1,4 +1,4 @@
-# Lyceum - Your Interactive Learning Platform
+# Lyceum - Your Interactive Coding and Learning Platform
 
 Lyceum is a modern educational platform built with Next.js, designed to provide an immersive and structured learning experience for aspiring developers. Named after Aristotle's ancient school, Lyceum combines traditional learning principles with modern technology to create an engaging educational journey.
 
