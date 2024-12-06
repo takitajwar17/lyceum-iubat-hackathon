@@ -14,6 +14,11 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Organized learning materials by topic
 - Interactive video lessons with detailed descriptions
 ![image](https://github.com/user-attachments/assets/f6b93293-bc01-42be-b539-41d884887614)
+![image](https://github.com/user-attachments/assets/9b63ccf2-50a2-4b81-b538-8ff8473fa7f7)
+![image](https://github.com/user-attachments/assets/bbaf050c-3c4e-4e27-b39d-0e974f2d0f0d)
+![image](https://github.com/user-attachments/assets/43829586-e45e-4c3b-a980-2fef6c2fa590)
+
+
 
 ### Roadmaps
 - AI-powered learning path generation
