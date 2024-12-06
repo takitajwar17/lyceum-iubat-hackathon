@@ -15,6 +15,7 @@ import {
   TbLayoutSidebarLeftCollapseFilled,
   TbLayoutSidebarLeftExpandFilled,
 } from "react-icons/tb";
+import { FiMap } from "react-icons/fi";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
@@ -92,6 +93,14 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           >
             <FaQuestionCircle className="mr-2" />
             AI Assistant
+          </Link>
+          
+          <Link
+            href="/roadmaps"
+            className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
+          >
+            <FiMap className="mr-2" />
+            Roadmaps
           </Link>
         
         </nav>
