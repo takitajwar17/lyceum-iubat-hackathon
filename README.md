@@ -1,15 +1,9 @@
 # Lyceum - Your Interactive Coding and Learning Platform
 
 Lyceum is a modern educational platform built with Next.js, designed to provide an immersive and structured learning experience for aspiring developers. Named after Aristotle's ancient school, Lyceum combines traditional learning principles with modern technology to create an engaging educational journey.
+![image](https://github.com/user-attachments/assets/4fcc5461-b395-492a-a826-9f8a96130d4e)
 
 ## 🚀 Features
-
-### Dashboard
-- Your personal Lyceum learning hub
-- Overview of your learning progress
-- Quick access to all learning resources
-- Personalized learning recommendations
-- Activity tracking and history
 
 ### Learning Platform
 - Curated educational videos from top programming channels
@@ -17,6 +11,7 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Video search functionality
 - Organized learning materials by topic
 - Interactive video lessons with detailed descriptions
+![image](https://github.com/user-attachments/assets/f6b93293-bc01-42be-b539-41d884887614)
 
 ### Roadmaps
 - AI-powered learning path generation
@@ -24,6 +19,8 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Progress tracking for each roadmap
 - Detailed step-by-step guidance
 - Share and explore community roadmaps
+![image](https://github.com/user-attachments/assets/d8ba1523-7694-4aae-8bcb-f4339e8477b3)
+
 
 ### Quest System
 - Time-based coding challenges
@@ -31,8 +28,11 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Real-time quest status tracking
 - Detailed quest descriptions and requirements
 - Quest completion tracking
+![image](https://github.com/user-attachments/assets/6506f188-fba9-4793-b367-e8713fdbef99)
+![image](https://github.com/user-attachments/assets/7207e281-bd75-4585-8663-a98f4e9f9a70)
 
-### AI Assistant
+
+### AI Assistant (Future Scope)
 - Intelligent learning support
 - Code explanation and debugging help
 - Personalized learning recommendations
@@ -45,6 +45,7 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Role-based access control
 - Secure session handling
 - Social login integration
+![image](https://github.com/user-attachments/assets/f820978b-8b7b-473a-b317-a7869b868d5f)
 
 ## 📁 Project Structure
 
