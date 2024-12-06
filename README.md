@@ -19,7 +19,10 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Progress tracking for each roadmap
 - Detailed step-by-step guidance
 - Share and explore community roadmaps
+![image](https://github.com/user-attachments/assets/70152519-4bb0-475a-bf7b-1aedf5980330)
+
 ![image](https://github.com/user-attachments/assets/d8ba1523-7694-4aae-8bcb-f4339e8477b3)
+![image](https://github.com/user-attachments/assets/03a09c4c-35ad-4e83-a48a-b4853e264303)
 
 
 ### Quest System
