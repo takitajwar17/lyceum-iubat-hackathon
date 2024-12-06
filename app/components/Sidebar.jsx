@@ -69,13 +69,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <SiGoogleclassroom className="mr-2" />
             Learn
           </Link>
-          <Link
-            href="/playground"
-            className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
-          >
-            <FaCodepen className="mr-2" />
-            Playground
-          </Link>
+          
           <Link
             href="/dev-discuss"
             className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
