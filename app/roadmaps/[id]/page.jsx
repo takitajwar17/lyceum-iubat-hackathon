@@ -109,7 +109,7 @@ export default function RoadmapDetailPage() {
                       
                       {step.videoId && (
                         <a
-                          href={`http://localhost:3000/learn/${step.videoId}`}
+                          href={`/learn/${step.videoId}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors"
