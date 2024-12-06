@@ -13,12 +13,19 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Video search functionality
 - Organized learning materials by topic
 - Interactive video lessons with detailed descriptions
+
+#### Learning Platform Flow:
+1. Browse curated videos
 ![image](https://github.com/user-attachments/assets/f6b93293-bc01-42be-b539-41d884887614)
+
+2. Search for specific topics
 ![image](https://github.com/user-attachments/assets/9b63ccf2-50a2-4b81-b538-8ff8473fa7f7)
+
+3. View detailed video information
 ![image](https://github.com/user-attachments/assets/bbaf050c-3c4e-4e27-b39d-0e974f2d0f0d)
+
+4. Interactive learning experience
 ![image](https://github.com/user-attachments/assets/43829586-e45e-4c3b-a980-2fef6c2fa590)
-
-
 
 ### Roadmaps
 - AI-powered learning path generation
@@ -26,11 +33,16 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Progress tracking for each roadmap
 - Detailed step-by-step guidance
 - Share and explore community roadmaps
+
+#### Roadmap Creation Flow:
+1. Create custom roadmap
 ![image](https://github.com/user-attachments/assets/70152519-4bb0-475a-bf7b-1aedf5980330)
 
+2. View generated roadmap
 ![image](https://github.com/user-attachments/assets/d8ba1523-7694-4aae-8bcb-f4339e8477b3)
-![image](https://github.com/user-attachments/assets/03a09c4c-35ad-4e83-a48a-b4853e264303)
 
+3. Track your progress
+![image](https://github.com/user-attachments/assets/03a09c4c-35ad-4e83-a48a-b4853e264303)
 
 ### Quest System
 - Time-based coding challenges
@@ -38,12 +50,19 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Real-time quest status tracking
 - Detailed quest descriptions and requirements
 - Quest completion tracking
+
+#### Quest System Flow:
+1. Browse available quests
 ![image](https://github.com/user-attachments/assets/6506f188-fba9-4793-b367-e8713fdbef99)
+
+2. View quest details
 ![WhatsApp Image 2024-12-06 at 17 23 06_2af1fdc2](https://github.com/user-attachments/assets/2e91ff0f-1fa6-476e-9b9c-a8da88f8fae2)
+
+3. Track quest progress
 ![image](https://github.com/user-attachments/assets/7207e281-bd75-4585-8663-a98f4e9f9a70)
+
+4. Complete and submit
 ![image](https://github.com/user-attachments/assets/4b01d1c2-9745-4384-b4d8-c343e3d985fa)
-
-
 
 ### AI Assistant (Future Scope)
 - Intelligent learning support
@@ -58,6 +77,8 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 - Role-based access control
 - Secure session handling
 - Social login integration
+
+#### Authentication Flow:
 ![image](https://github.com/user-attachments/assets/f820978b-8b7b-473a-b317-a7869b868d5f)
 
 ## 📁 Project Structure
