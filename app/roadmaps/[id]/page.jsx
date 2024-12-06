@@ -20,6 +20,12 @@ const formatDuration = (duration) => {
   return formatted.trim();
 };
 
+// Function to sanitize URL
+const sanitizeUrl = (url) => {
+  // Remove angle brackets and any surrounding whitespace
+  return url.replace(/[<>]/g, '').trim();
+};
+
 export default function RoadmapDetailPage() {
   const params = useParams();
   const [roadmap, setRoadmap] = useState(null);
@@ -91,7 +97,7 @@ export default function RoadmapDetailPage() {
                     <div className="flex flex-wrap gap-4">
                       {step.documentation && (
                         <a
-                          href={step.documentation}
+                          href={sanitizeUrl(step.documentation)}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors"
