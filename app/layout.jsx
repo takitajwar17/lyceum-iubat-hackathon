@@ -15,15 +15,15 @@ const kanit = Kanit({
 });
 
 export const metadata = {
-  title: "Inherit",
-  description: "Inherit: A Unified Learning & Coding Platform",
+  title: "Lyceum",
+  description: "Lyceum: A Unified Learning & Coding Platform",
   openGraph: {
     type: "website",
-    url: "https://inherit-xtradrill.vercel.app",
-    title: "Inherit",
-    description: "Inherit: A Unified Learning & Coding Platform",
+    url: "https://Lyceum-xtradrill.vercel.app",
+    title: "Lyceum",
+    description: "Lyceum: A Unified Learning & Coding Platform",
     image:
-      "https://raw.githubusercontent.com/takitajwar17/inherit/refs/heads/main/public/inherit.png",
+      "https://raw.githubusercontent.com/takitajwar17/Lyceum/refs/heads/main/public/Lyceum.png",
   },
 };
 
