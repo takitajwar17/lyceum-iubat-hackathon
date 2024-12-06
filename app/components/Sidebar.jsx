@@ -77,13 +77,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <FaComments className="mr-2" />
             DevDiscuss
           </Link>
-          <Link
-            href="/notifications"
-            className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
-          >
-            <MdNotifications className="mr-2" />
-            Notifications
-          </Link>
+         
           <Link
             href="/quests"
             className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
@@ -91,12 +85,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <MdAddBox className="mr-2" />
             Quests
           </Link>
+
           <Link
             href="/help"
             className="flex items-center text-gray-900 hover:text-indigo-600 text-lg p-2"
           >
             <FaQuestionCircle className="mr-2" />
-            Help
+            AI Assistant
           </Link>
         
         </nav>
