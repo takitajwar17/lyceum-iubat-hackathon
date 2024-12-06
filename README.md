@@ -1,17 +1,52 @@
-# IUBAT Hackathon Project
+# Lyceum - Your Interactive Learning Platform
 
-A modern web application built with Next.js, featuring authentication and a comprehensive learning platform.
+Lyceum is a modern educational platform built with Next.js, designed to provide an immersive and structured learning experience for aspiring developers. Named after Aristotle's ancient school, Lyceum combines traditional learning principles with modern technology to create an engaging educational journey.
 
-## Features
+## 🚀 Features
 
-- **Authentication**: Secure user authentication powered by Clerk
-- **Modern UI**: Built with Tailwind CSS and various UI components
-- **Interactive Learning**: Roadmaps and quest-based learning system
-- **Dashboard**: User-specific dashboard for tracking progress
-- **Admin Panel**: Administrative controls and management
-- **API Integration**: RESTful API endpoints for data management
+### Dashboard
+- Your personal Lyceum learning hub
+- Track progress across different learning paths
+- View completed quests and achievements
+- Monitor learning statistics and performance metrics
+- Access quick links to ongoing courses and roadmaps
 
-## Project Structure
+### Learning Platform
+- Interactive coding lessons and tutorials
+- Step-by-step learning paths for different technologies
+- Progress tracking and skill assessment
+- Hands-on coding exercises and examples
+- Rich multimedia content with code snippets and explanations
+
+### Roadmaps
+- Structured learning paths for different technologies
+- Visual progression tracking
+- Milestone-based learning objectives
+- Prerequisites and skill dependencies mapped
+- Customized learning recommendations
+
+### Quest System
+- Gamified learning challenges
+- Practical coding exercises
+- Real-world project implementations
+- Achievement badges and rewards
+- Skill-based progression system
+
+### AI Assistant
+- Intelligent learning support
+- Code explanation and debugging help
+- Personalized learning recommendations
+- Interactive problem-solving guidance
+- Quick answers to programming questions
+
+### Authentication
+- Secure user authentication powered by Clerk
+- User profile management
+- Role-based access control
+- Secure session handling
+- Social login integration
+
+## 📁 Project Structure
 
 ```
 ├── app/
@@ -28,7 +63,7 @@ A modern web application built with Next.js, featuring authentication and a comp
 └── components/      # Shared components
 ```
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14
 - **Authentication**: Clerk
@@ -42,7 +77,7 @@ A modern web application built with Next.js, featuring authentication and a comp
 - **Markdown**: React Markdown with GFM
 - **Analytics**: Vercel Analytics & Speed Insights
 
-## Getting Started
+## 🚦 Getting Started
 
 1. **Clone the repository**
 ```bash
@@ -70,7 +105,7 @@ npm run dev
 npm run build
 ```
 
-## Environment Variables
+## 🔑 Environment Variables
 
 Required environment variables:
 - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
@@ -78,13 +113,13 @@ Required environment variables:
 - `MONGODB_URI`
 - Other service-specific keys
 
-## Scripts
+## 📝 Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm start` - Start production server
 - `npm run lint` - Run ESLint
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
