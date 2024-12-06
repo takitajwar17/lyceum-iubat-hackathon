@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
+import { IoSearch } from "react-icons/io5";
 
 const API_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY;
 const CHANNEL_IDS = [
@@ -39,95 +40,66 @@ const LearnPage = () => {
     }
   };
 
+  const fetchVideosBySearch = async () => {
+    try {
+      const promises = CHANNEL_IDS.map((channelId) =>
+        axios.get(`https://www.googleapis.com/youtube/v3/search`, {
+          params: {
+            part: "snippet",
+            channelId: channelId,
+            maxResults: 10,
+            order: "relevance",
+            q: searchTerm,
+            type: "video",
+            key: API_KEY,
+          },
+        })
+      );
+      const results = await Promise.all(promises);
+      const allVideos = results.flatMap((result) => result.data.items);
+      setVideos(allVideos);
+    } catch (error) {
+      console.error("Error fetching videos by search", error);
+    }
+  };
+
   return (
-    <div>
-      <header>
-        <div className="search-bar">
+    <div className="min-h-screen bg-gray-100">
+      <header className="bg-white shadow p-4">
+        <div className="max-w-4xl mx-auto flex items-center">
           <input
             type="text"
             placeholder="Search for coding videos..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            className="flex-grow p-2 border border-gray-300 rounded-l-md focus:outline-none "
           />
-          <button>Search</button>
+          <button onClick={fetchVideosBySearch} className="p-2 bg-blue-500 flex items-center gap-1 text-white rounded-r-md hover:bg-blue-600"><IoSearch />Search</button>
         </div>
       </header>
-      <main>
-        <div className="video-grid">
+      <main className="max-w-6xl mx-auto py-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {videos.map((video) => (
             <div
               key={video.id.videoId}
-              className="video-card"
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
               onClick={() => router.push(`/learn/${video.id.videoId}`)}
             >
-              <img
-                src={video.snippet.thumbnails.medium.url}
-                alt={video.snippet.title}
-              />
-              <h3>{video.snippet.title}</h3>
-              <p>{video.snippet.channelTitle}</p>
+              <div className="relative" style={{ paddingBottom: '56.25%' }}>
+                <img
+                  src={video.snippet.thumbnails.medium.url}
+                  alt={video.snippet.title}
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="text-lg font-medium">{video.snippet.title}</h3>
+                <p className="text-gray-600">{video.snippet.channelTitle}</p>
+              </div>
             </div>
           ))}
         </div>
       </main>
-      {/* <style jsx>{`
-        header {
-          display: flex;
-          justify-content: center;
-          padding: 20px;
-          background-color: #f8f8f8;
-          border-bottom: 1px solid #ddd;
-        }
-        .search-bar {
-          display: flex;
-          width: 100%;
-          max-width: 600px;
-        }
-        .search-bar input {
-          flex: 1;
-          padding: 10px;
-          font-size: 16px;
-          border: 1px solid #ccc;
-          border-radius: 4px 0 0 4px;
-        }
-        .search-bar button {
-          padding: 10px 20px;
-          font-size: 16px;
-          border: none;
-          border-radius: 0 4px 4px 0;
-          background-color: #007bff;
-          color: white;
-          cursor: pointer;
-        }
-        .video-grid {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 16px;
-          justify-content: center;
-          padding: 20px;
-        }
-        .video-card {
-          width: 300px;
-          border: 1px solid #ccc;
-          padding: 16px;
-          border-radius: 8px;
-          transition: transform 0.2s;
-        }
-        .video-card:hover {
-          transform: scale(1.05);
-        }
-        .video-card img {
-          width: 100%;
-          border-radius: 8px;
-        }
-        .video-card a {
-          text-decoration: none;
-          color: inherit;
-        }
-        .video-card h3 {
-          margin: 8px 0;
-        }
-      `}</style> */}
     </div>
   );
 };
