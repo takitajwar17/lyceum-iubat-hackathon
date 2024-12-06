@@ -18,13 +18,13 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 1. Browse curated videos
 ![image](https://github.com/user-attachments/assets/f6b93293-bc01-42be-b539-41d884887614)
 
-2. Search for specific topics
+2. View a video:
 ![image](https://github.com/user-attachments/assets/9b63ccf2-50a2-4b81-b538-8ff8473fa7f7)
 
-3. View detailed video information
+3. Run Code:
 ![image](https://github.com/user-attachments/assets/bbaf050c-3c4e-4e27-b39d-0e974f2d0f0d)
 
-4. Interactive learning experience
+4. Get Review:
 ![image](https://github.com/user-attachments/assets/43829586-e45e-4c3b-a980-2fef6c2fa590)
 
 ### Roadmaps
@@ -58,10 +58,10 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 2. View quest details
 ![WhatsApp Image 2024-12-06 at 17 23 06_2af1fdc2](https://github.com/user-attachments/assets/2e91ff0f-1fa6-476e-9b9c-a8da88f8fae2)
 
-3. Track quest progress
+3. Track quest marks
 ![image](https://github.com/user-attachments/assets/7207e281-bd75-4585-8663-a98f4e9f9a70)
 
-4. Complete and submit
+4. Track quest evaluation
 ![image](https://github.com/user-attachments/assets/4b01d1c2-9745-4384-b4d8-c343e3d985fa)
 
 ### AI Assistant (Future Scope)
