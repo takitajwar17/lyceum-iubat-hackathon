@@ -1,4 +1,5 @@
 "use client";
+import CodeEditor from "@/components/ui/CodeEditor";
 import React, { useEffect } from "react";
 
 const VideoPage = ({ params }) => {
@@ -52,6 +53,7 @@ const VideoPage = ({ params }) => {
         {/* Code Editor Section - to be implemented later */}
         <div className="h-full">
           Code Editor Section
+          <CodeEditor/>
         </div>
       </div>
     </div>
