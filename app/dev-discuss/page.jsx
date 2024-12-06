@@ -12,7 +12,7 @@ export default function DevDiscuss() {
       title: "How to implement authentication in Next.js 13?",
       description: "I'm building a web application using Next.js 13 and need to implement user authentication. What are the best practices and recommended approaches?",
       author: "John Doe",
-      authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      
       votes: 15,
       answers: 3,
       views: 120,
@@ -24,7 +24,7 @@ export default function DevDiscuss() {
       title: "Understanding TypeScript Generics",
       description: "Can someone explain TypeScript generics with practical examples? I'm having trouble understanding when and how to use them effectively.",
       author: "Jane Smith",
-      authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane",
+      
       votes: 8,
       answers: 2,
       views: 85,
@@ -36,7 +36,7 @@ export default function DevDiscuss() {
       title: "Best practices for React state management in 2024",
       description: "With so many state management solutions available (Redux, Zustand, Jotai, etc.), what's the current best practice for React applications?",
       author: "Alex Johnson",
-      authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+      
       votes: 12,
       answers: 4,
       views: 150,
@@ -106,11 +106,7 @@ export default function DevDiscuss() {
             >
               <Link href={`/dev-discuss/question/${question.id}`}>
                 <div className="flex items-start space-x-4">
-                  <img
-                    src={question.authorAvatar}
-                    alt={question.author}
-                    className="w-10 h-10 rounded-full"
-                  />
+                 
                   <div className="flex-1">
                     <h2 className="text-xl font-semibold text-gray-900 hover:text-blue-600 transition-colors">
                       {question.title}
