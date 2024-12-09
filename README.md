@@ -1,6 +1,8 @@
 # Lyceum - Your Interactive Coding and Learning Platform
 
 > 🏆 Created by Team XtraDrill for IUBAT Hackathon
+> 
+> 🎉 **Champion of Dhaka Divisional Hackathon 2024 - Technocrats v.2 organized by IIEC IUBAT** - Recognized for innovation in educational technology and exceptional implementation!
 
 Lyceum is a modern educational platform built with Next.js, designed to provide an immersive and structured learning experience for aspiring developers. Named after Aristotle's ancient school, Lyceum combines traditional learning principles with modern technology to create an engaging educational journey.
 ![image](https://github.com/user-attachments/assets/7a77c43c-1c3f-4df2-ab9a-e219304dce8f)
@@ -10,7 +12,6 @@ Lyceum is a modern educational platform built with Next.js, designed to provide 
 
 ### Learning Platform
 - Curated educational videos from top programming channels
-- Integration with freeCodeCamp and Telusko content
 - Video search functionality
 - Organized learning materials by topic
 - Interactive video lessons with detailed descriptions
